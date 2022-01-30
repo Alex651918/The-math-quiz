@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Math Quiz</title>
+	<title>Guess The Word</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -16,15 +16,17 @@
 
 <div class="container">
 	<center>
-		<h2 style="color: white;">Math Quiz!</h2>
+		<h2 style="color: white;">Math Quiz</h2>
 		<h3 id="player_question"></h3>
 		<h3 id="player_answer"></h3>
 		<div id="output" class="col-lg-6"> </div>
 		<br>
 		<br>
 
-		<label>Send You Question: <b style="color: red">Try putting numbers which has 5 or more alphabet</b></label>
-		<input type="text" id="word" class="form-control" placeholder="Word">
+		<label>Send You Word: <b style="color: red">Try putting word which has 5 or more alphabet</b></label>
+		<input type="text" id="number1" class="form-control" placeholder="number1">
+		<br>
+		<input type="text" id="number2" class="form-control" placeholder="number2">
 		<br>
 		<button onclick="send()" class="btn-success" style="width: 30%;">Send</button>
 	</center>
